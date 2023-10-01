@@ -11,25 +11,28 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import LinkedIn from './img/linkedin.png'
 import github from './img/GitHub.png'
 import Skills from "./Skills";
+import useDarkMode from "./darkmode";
+import Button from "react-bootstrap/Button";
 
 
 
 function App() {
 
-
+  const {isDarkMode, toggleDarkMode } = useDarkMode();
   return (
     
-    <div  >
-      <Navbar sticky="top" key={"md"} expand={"md"} className="bg-body-tertiary mb-3" >
+    <div className={`App ${isDarkMode ? 'darkmode' : ''}`} >
+      <Navbar sticky="top" key={"md"} expand={"md"} className="bg-body-tertiary mb-3" data-bs-theme={`${isDarkMode ? 'dark' : ''}`} >
         <Container fluid>
           <Navbar.Brand href="#">
-            <h1>My Project</h1>
+            <h1>Portfolio</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-md`}
             aria-labelledby={`offcanvasNavbarLabel-expand-md`}
             placement="end"
+            className={`${isDarkMode ? 'text-bg-dark' : ''}`}
           >
             <Offcanvas.Header closeButton>
               {/* <Offcanvas.Title id={`offcanvasNavbarLabel-expand-false`}>
@@ -44,6 +47,7 @@ function App() {
                 <NavDropdown
                   title="Contact Me"
                   id={`offcanvasNavbarDropdown-expand-md`}
+                  className={`${isDarkMode ? 'dropdown-menu-dark' : ''}`}
                 >
                   <NavDropdown.Item  href="https://github.com/Blvcko13"><img src={github} alt="github logo" width="30px"/>Blvcko13</NavDropdown.Item>
                   <NavDropdown.Item href="https://www.linkedin.com/in/javokhirjon-jakhonkulov-160b98204/">
@@ -57,6 +61,9 @@ function App() {
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
+              <Nav>
+      <Button variant="outline-secondary" onClick={toggleDarkMode}>Dark Mode </Button> 
+      </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
@@ -69,6 +76,7 @@ function App() {
           <Route path="/contactme" element={<ContactMe />} />
         </Routes>
       </Router>
+      
 
     </div>
   );
