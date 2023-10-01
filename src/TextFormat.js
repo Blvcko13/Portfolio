@@ -1,11 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import Button from "react-bootstrap/Button";
-import useDarkMode from "./darkmode";
-import "./App.css";
+  import "./App.css";
 
 function TextFormat() {
-    const {isDarkMode, toggleDarkMode } = useDarkMode();
   const [text, setText] = useState("Enter Text Here"); //state
 
   const convertUpperCase = (event) => {
@@ -37,7 +34,7 @@ function TextFormat() {
   };
 
   return (
-    <div className={`App ${isDarkMode ? 'darkmode' : ''}`}>
+    <div >
       <div >
         <h1>Enter text to format</h1>
         <div className="m-5">
@@ -76,7 +73,6 @@ function TextFormat() {
           {parseInt(text.split(" ").length) * 0.08} minutes to read above text.
         </p>
       </div>
-      <Button variant="outline-secondary" onClick={toggleDarkMode}>Dark Mode </Button> 
     </div>
   );
 }
