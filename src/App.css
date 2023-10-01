@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;700&display=swap');
 .darkmode{
-  /* background-image: url(./img/black.jpg) !important; */
   color:whitesmoke !important;
   text-align: center;
   z-index: -2;
