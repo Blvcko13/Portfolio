@@ -17,6 +17,13 @@
   align-items: center;
   justify-content: center;
 }
+.downloadlink{
+  text-decoration: none;
+  color:	#5cb85c !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .center{ 
   display: flex;
   align-items: center;
