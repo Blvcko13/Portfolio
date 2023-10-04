@@ -50,7 +50,7 @@ function App() {
                   className={`${isDarkMode ? 'dropdown-menu-dark' : ''}`}
                 >
                   <NavDropdown.Item  href="https://github.com/Blvcko13"><img src={github} alt="github logo" width="30px"/>Blvcko13</NavDropdown.Item>
-                  <NavDropdown.Item href="https://www.linkedin.com/in/javokhirjon-jakhonkulov-160b98204/">
+                  <NavDropdown.Item href="www.linkedin.com/in/javokhjakhon2202">
                   <img src={
                     LinkedIn
                   } alt="Linkedin logo" width="35px"/>Jakhonkulov Javokhirjon
