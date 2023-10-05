@@ -12,7 +12,7 @@ function AboutMe(){
             <Button variant='outline-success'> 
             <a href='https://drive.usercontent.google.com/download?id=1j_YToxrkPnMODtfu2N_hBnKmjlDGvUqu&export=download&authuser=0&confirm=t&uuid=1cbd04d0-bbe8-4ea4-848f-b5693e4534c8&at=APZUnTW6JKk-1QAypNjEa884x3Ek:1696386484889' className='downloadlink'>Download CV</a>
             </Button><br/>
-            <img src={webdev} alt='Webdeveloper' /><br/>
+            <img src={webdev} width="75%" alt='Webdeveloper' /><br/>
         </div>
     );
 }
