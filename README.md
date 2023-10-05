@@ -1,3 +1,7 @@
+### Advanced Configuration
+![Снимок экрана 2023-10-05 181435](https://github.com/Blvcko13/Portfolio/assets/111675642/757bfc33-6041-48d0-bd2b-986c267e809c)
+![Снимок экрана 2023-10-05 181412](https://github.com/Blvcko13/Portfolio/assets/111675642/1d7da026-471d-4a78-8217-cf0bda1e32d6)
+![Снимок экрана 2023-10-05 181353](https://github.com/Blvcko13/Portfolio/assets/111675642/c98c325e-cd93-45c9-af35-d62dabd21f64)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -57,7 +61,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
