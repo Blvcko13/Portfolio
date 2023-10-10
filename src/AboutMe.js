@@ -10,7 +10,7 @@ function AboutMe(){
             <h1 className='header'> &#128075;Hi I am <br/> Jakhonkulov Javokhirjon</h1>
             <h2 className='header'>Frontend developer</h2>
             <Button variant='outline-success'> 
-            <a href='https://drive.usercontent.google.com/download?id=1j_YToxrkPnMODtfu2N_hBnKmjlDGvUqu&export=download&authuser=0&confirm=t&uuid=1cbd04d0-bbe8-4ea4-848f-b5693e4534c8&at=APZUnTW6JKk-1QAypNjEa884x3Ek:1696386484889' className='downloadlink'>Download CV</a>
+            <a href='https://drive.usercontent.google.com/download?id=1nmjJiycnVOc2zTmzjFeBCaavTFnqTYkK&export=download&authuser=0&confirm=t&uuid=36c8b7cc-8863-474b-b9ed-44082dad1d62&at=APZUnTVcouxUr3l8mtKvDGEEMlYf:1696953877733' className='downloadlink'>Download CV</a>
             </Button><br/>
             <img src={webdev} width="75%" alt='Webdeveloper' /><br/>
         </div>
